@@ -6,7 +6,7 @@ for the web challenge you proposed. it's developped by laravel framework .
 downald the file web-challenge.rar and unzipp it in some directory like (c:/path ) 
 go to commandline(cmd) and reach this unzipedd directory ;command> cd path/web-challenge
 and run the installation  using command: composer install
-after installation create a database with name (web-challenge) in mysql or depending on your dabatabase server (if it's not wamp mysql please do the configuration in the file .env) and just create it (if you change db name or db username or password or it s hosted in another server pleaze check .env file and do what it have to be modified).
+after installation create a database with name (web-challenge) in mysql or depending on your dabatabase server (if it's not wamp mysql please do the configuration in the file .env) and just create it (if you change db name or db username or password or it s hosted in another server please check .env file and do what it has to be modified).
 return to cmd and apply command: php artisan migrate 
 after the success of migration run the command :php artisan db:seed 
 (i made a database seeder to have some shops )
